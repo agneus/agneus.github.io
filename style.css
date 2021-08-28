@@ -1,0 +1,143 @@
+body{
+    background-color: #04020E;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.showcase{
+    margin-top: 75px;
+    display: flex;
+}
+
+.right{
+    flex: 1;
+    height: 600px;
+    display: flex;
+}
+
+.right img{
+    padding: 20px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+
+.left{
+    flex: 1;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+}
+
+.left h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.show_h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size:36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.show_h22{
+    font-style: normal;
+    font-weight: normal;
+    font-size:48px;
+    line-height: 42px;
+    text-align: center;
+}
+
+
+.vector{
+    width: 100%;
+}
+
+.about{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.teles{
+    display: block;
+    height: 400px;
+    margin: auto;
+    
+}
+
+.rez{
+    display: inline-block;
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: #ffd700;
+    font-style: normal;
+    font-weight: normal;
+    font-size:36px;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.5s;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.rez:hover{
+    transform: scale(1.08)
+}
+
+
+.contact{
+    display: block;
+}
+
+.logos{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.wee{
+    color: white;
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+.wee:hover{
+    transform: scale(1.08);
+    color: #ffd700;
+}
+
+
+
+.gold{
+    color: #FFD700;
+}
+
+@media (max-width: 760px) {
+    .showcase{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .right{
+        order: 1;
+    }
+    .left{
+        order: 2;
+    }
+}
