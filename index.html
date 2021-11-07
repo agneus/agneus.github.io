@@ -1,35 +1,160 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/adf2e8f7cd.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Samin Sharar Nafi</title>
-</head>
-<body>
-    <div class="showcase">
-        <div class="left">
-            <h2 class="show_h2">"I will become the wisest sage in the world."</h2>
-            <h2 class="show_h2">- Samin Sharar Nafi</h2>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./img/logo.png" />
+    <title>Agneus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Template Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700"
+      rel="stylesheet"
+    />
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/preloader.min.css" rel="stylesheet" />
+    <link href="css/circle.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- CSS Skin File -->
+    <link href="css/yellow.css" rel="stylesheet" />
+  </head>
+
+  <body class="home">
+    <div class="overlay"></div>
+
+    <!-- Header Starts -->
+    <header class="header" id="navbar-collapse-toggle">
+      <!-- Fixed Navigation Starts -->
+      <ul
+        class="
+          icon-menu
+          d-none d-lg-block
+          revealator-slideup revealator-once revealator-delay1
+        "
+      >
+        <li class="icon-box active">
+          <i class="fa fa-home"></i>
+          <a href="index.html">
+            <h2>Home</h2>
+          </a>
+        </li>
+        <li class="icon-box">
+          <i class="fa fa-user"></i>
+          <a href="about.html">
+            <h2>About</h2>
+          </a>
+        </li>
+        <li class="icon-box">
+          <i class="fa fa-briefcase"></i>
+          <a href="portfolio.html">
+            <h2>Projects</h2>
+          </a>
+        </li>
+      </ul>
+      <!-- Fixed Navigation Ends -->
+      <!-- Mobile Menu Starts -->
+      <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="list-unstyled" id="menu">
+            <li class="active">
+              <a href="index.html"
+                ><i class="fa fa-home"></i><span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href="about.html"
+                ><i class="fa fa-user"></i><span>About</span></a
+              >
+            </li>
+            <li>
+              <a href="portfolio.html"
+                ><i class="fa fa-folder-open"></i><span>Projects</span></a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="right">
-            <img src="img/uimg2.png" alt="">
+      </nav>
+      <!-- Mobile Menu Ends -->
+    </header>
+    <!-- Header Ends -->
+    <!-- Main Content Starts -->
+    <section
+      class="
+        container-fluid
+        main-container
+        container-home
+        p-0
+        revealator-slideup revealator-once revealator-delay1
+      "
+    >
+      <div class="color-block d-none d-lg-block"></div>
+      <div class="row home-details-container align-items-center">
+        <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
+        <div
+          class="
+            col-12 col-lg-8
+            offset-lg-4
+            home-details
+            text-left text-sm-center text-lg-left
+          "
+        >
+          <div class="intro">
+            <img
+              src="img/profile.jpg"
+              class="img-fluid main-img-mobile d-none d-sm-block d-lg-none"
+              alt="my picture"
+            />
+
+            <h1 class="text-uppercase poppins-font">
+              Nafi <span>is the name.</span>
+            </h1>
+            <h2 class="text-uppercase poppins-font">
+              <span>I'm a </span> <span class="typing"></span>
+            </h2>
+            <br />
+
+            <p class="open-sans-font">
+              I'm a 2nd year Computer Science and Business Administration student at the University of
+              Waterloo and I'm currently seeking
+              <span class="intern">Winter 2022 internship opportunities.</span>
+              <br />
+
+              I am interested in full stack development and specialize in frontend engineering. I enjoy computer games, mobile gacha games and anime in my free time.
+              You can take a look at some of my projects
+              <a class="projects-link" href="./portfolio.html">here</a>! <br />
+
+              Feel free to email me or reach out to me on discord (Agneus#5484).
+            </p>
+            <a href="./Resume.pdf" class="btn btn-download"
+              >View Resume</a
+            >
+          </div>
         </div>
-    </div>
-    <img class='vector' src="img/vector2.png" alt="">
-    <div class="about">
-        <h2 class="show_h22">About Me</h2>
-        <img class='teles' src="img/teles2.png" alt="">
-        <p class='show_h2'><span class='gold'>Nafi</span> is the name.</p>
-        <p class='show_h2'>I am a second year computer science and business administration student at the University of Waterloo. I am interested in full stack development and specialize in frontend engineering. I enjoy computer games, mobile gacha games and anime in my free time.</p>
-        <a href="img/resume.pdf" class='rez'>View Resume</a>
-    </div>
-    <div class="logos">
-        <a class='wee' href="https://github.com/agneus"><i class='fab fa-github fa-5x'></i></a>
-        <a class='wee' href="https://www.linkedin.com/in/saminshararnafi"><i class='fab fa-linkedin fa-5x'></i></a>
-        <a class='wee' href="mailto:saminshararnafi@gmail.com"><i class='far fa-envelope fa-5x'></i></a>
-    </div>
-</body>
+      </div>
+    </section>
+
+    <!-- Main Content Ends -->
+
+    <!-- Template JS Files -->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/preloader.min.js"></script>
+    <script src="js/fm.revealator.jquery.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  </body>
 </html>
