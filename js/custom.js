@@ -38,7 +38,7 @@
 
 $(document).ready(function () {
   var typed = new Typed(".typing", {
-    strings: [ "Philosopher", "Sage", "Duelist", "Master", "Traveler" , ,"Weeb"],
+    strings: [ "Philosopher", "Sage", "Duelist", "Master", "Traveler" ,"Weeb"],
     typeSpeed: 120,
     backSpeed: 60,
     loop: true,
