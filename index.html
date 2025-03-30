@@ -1,150 +1,63 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="./img/logo.png" />
-    <title>Samin Sharar Nafi</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Template Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700"
-      rel="stylesheet"
-    />
-
-    <!-- Template CSS Files -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/preloader.min.css" rel="stylesheet" />
-    <link href="css/circle.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-
-    <!-- CSS Skin File -->
-    <link href="css/yellow.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <!-- Redirect after 2 seconds; change the delay as needed -->
+    <meta http-equiv="refresh" content="2; url=https://agneus.vercel.app/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <style>
+      body {
+        background: #121212;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: #ffffff;
+      }
+      .container {
+        text-align: center;
+      }
+      .spinner {
+        border: 8px solid #333333;
+        border-top: 8px solid #bb86fc;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 20px;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      .message {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+      }
+      a {
+        color: #bb86fc;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
-
-  <body class="home">
-    <div class="overlay"></div>
-
-    <!-- Header Starts -->
-    <header class="header" id="navbar-collapse-toggle">
-      <!-- Fixed Navigation Starts -->
-      <ul
-        class="
-          icon-menu
-          d-none d-lg-block
-          revealator-slideup revealator-once revealator-delay1
-        "
-      >
-        <li class="icon-box active">
-          <i class="fa fa-home"></i>
-          <a href="index.html">
-            <h2>Home</h2>
-          </a>
-        </li>
-        <li class="icon-box">
-          <i class="fa fa-user"></i>
-          <a href="about.html">
-            <h2>About</h2>
-          </a>
-        </li>
-      </ul>
-      <!-- Fixed Navigation Ends -->
-      <!-- Mobile Menu Starts -->
-      <nav role="navigation" class="d-block d-lg-none">
-        <div id="menuToggle">
-          <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-          <ul class="list-unstyled" id="menu">
-            <li class="active">
-              <a href="index.html"
-                ><i class="fa fa-home"></i><span>Home</span></a
-              >
-            </li>
-            <li>
-              <a href="about.html"
-                ><i class="fa fa-user"></i><span>About</span></a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- Mobile Menu Ends -->
-    </header>
-    <!-- Header Ends -->
-    <!-- Main Content Starts -->
-    <section
-      class="
-        container-fluid
-        main-container
-        container-home
-        p-0
-        revealator-slideup revealator-once revealator-delay1
-      "
-    >
-      <div class="color-block d-none d-lg-block"></div>
-      <div class="row home-details-container align-items-center">
-        <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
-        <div
-          class="
-            col-12 col-lg-8
-            offset-lg-4
-            home-details
-            text-left text-sm-center text-lg-left
-          "
-        >
-          <div class="intro">
-            <img
-              src="img/profile.jpg"
-              class="img-fluid main-img-mobile d-none d-sm-block d-lg-none"
-              alt="my picture"
-            />
-
-            <h1 class="text-uppercase poppins-font">
-              Samin <span>is the name.</span>
-            </h1>
-            <h2 class="text-uppercase poppins-font">
-              <span>I'm a </span> <span class="typing"></span>
-            </h2>
-            <br />
-
-            <p class="open-sans-font">
-              As a soon-to-be Computer Science graduate at the University of
-              Waterloo, I am eager to explore new grad opportunities.
-              <br />
-              
-              I'm a driven software developer with hands-on experience in Java, Kotlin, TypeScript, and JavaScript,
-               and expertise in frameworks and tools like React, Cypress, and Jenkins. 
-               I specialize in building efficient, scalable, and user-centric solutions across backend, frontend, 
-               and testing domains. Beyond coding, I'm passionate about continuous self-growth—whether 
-                it’s mastering new technologies, weightlifting, or exploring the world through books.
-
-              Feel free to connect with me on <a class="projects-link" href="https://www.linkedin.com/in/saminshararnafi">LinkedIn</a>  or <a class="projects-link" href="mailto:snafi@uwaterloo.ca">email</a> me.
-            </p>
-            <a href="./Resume.pdf" class="btn btn-download"
-              >View Resume</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Main Content Ends -->
-
-    <!-- Template JS Files -->
-    <script src="js/jquery-3.5.0.min.js"></script>
-    <script src="js/preloader.min.js"></script>
-    <script src="js/fm.revealator.jquery.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <body>
+    <div class="container">
+      <div class="spinner"></div>
+      <p class="message">Please wait, you are being redirected...</p>
+      <p>
+        If you are not redirected automatically, click
+        <a href="https://agneus.vercel.app/">here</a>.
+      </p>
+    </div>
   </body>
 </html>
